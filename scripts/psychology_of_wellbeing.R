@@ -1,5 +1,5 @@
 # Psychology of Well-being
-psych_data <- read.csv("psychology_participants_100.csv")
+psych_data <- read.csv("data/psychology_participants_100.csv")
 # Data Verification
 class(psych_data)
 head(psych_data)
