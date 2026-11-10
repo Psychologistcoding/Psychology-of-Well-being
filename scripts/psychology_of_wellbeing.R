@@ -80,8 +80,6 @@ summary(lm(wellbeing_score ~ anxiety_score, data = psych_data))
 summary(lm(wellbeing_score ~ resilience_score, data = psych_data))
 summary(lm(resilience_score ~ anxiety_score, data = psych_data))
 # ggplot2
-# Install Package for GGPLOT2 (If not already installed)
-install.packages("ggplot2")
 library("ggplot2")
 # ggplot2 (BASIC)
 ggplot(data = psych_data, aes(x = anxiety_score, y = wellbeing_score)) + geom_point()
